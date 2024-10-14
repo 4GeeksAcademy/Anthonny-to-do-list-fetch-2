@@ -1,12 +1,45 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+  }
 
-/* 
+  h1 {
+    font-style: italic;
+    font-size: 120px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    color: white;
+    text-align: center;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.container {
+    margin-top: 50px; 
+}
 
-*/
+.list-group-item {
+    background-color: #ffffff; 
+    border: 1px solid #ced4da; 
+    border-radius: 0.5rem; 
+    padding: 15px; 
+    margin-bottom: 10px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s, box-shadow 0.2s; 
+}
+
+.list-group-item:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.list-group-item .btn {
+    border-radius: 25px; 
+    transition: background-color 0.2s; 
+}
+
+.list-group-item .btn-danger:hover {
+    background-color: #c82333; 
+}
